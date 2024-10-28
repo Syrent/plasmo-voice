@@ -5,4 +5,5 @@ If you encounter any issues, please report them on Discord: https://discord.gg/u
 Versions 2.0.x and 2.1.x are protocol-compatible,
 so there’s no need to worry if the server hasn't been updated to 2.1.x.
 
-### Changes in 2.1.1
+### Changes in 2.1.2
+- Fixed buffer overflow when using AudioSender with delayed first frame.
