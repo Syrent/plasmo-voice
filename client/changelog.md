@@ -7,3 +7,4 @@ so there’s no need to worry if the server hasn't been updated to 2.1.x.
 
 ### Changes in 2.1.2
 - Fixed buffer overflow when using AudioSender with delayed first frame.
+- Fixed EncoderException on server switch on servers with proxy and proxy-side addons (e.g, groups addon).
