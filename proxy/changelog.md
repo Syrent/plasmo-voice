@@ -7,4 +7,5 @@ so there’s no need to worry if the server hasn't been updated to 2.1.x.
 
 ### Changes in 2.1.2
 - Fixed buffer overflow when using AudioSender with delayed first frame.
-- Fixed client EncoderException on server switch caused by UDP packets sent to a client when client's server is null.  
+- Fixed client EncoderException on server switch caused by UDP packets sent to a client when client's server is null.
+- Fixed ArrayIndexOutOfBoundsException exception when using `/` command on Velocity. 
