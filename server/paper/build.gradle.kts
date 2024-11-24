@@ -10,12 +10,15 @@ group = "$group.server"
 
 repositories {
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
+    maven("https://repo.sayandev.org/snapshots")
 }
 
 dependencies {
     compileOnly(libs.paper)
     compileOnly(libs.papi)
     compileOnly(libs.supervanish)
+    compileOnly(libs.sayanvanish.api)
+    compileOnly(libs.sayanvanish.bukkit)
 
     compileOnly("org.bstats:bstats-bukkit:${libs.versions.bstats.get()}")
 
